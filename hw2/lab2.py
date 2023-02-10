@@ -1,0 +1,18 @@
+array = [7, 5, 10, 14, 3, 9, 7]
+array1 = [9, 10, 3, 4, 2, 5, 7, 1]
+l = len(array)
+li = len(array1)
+print(1, 11)
+array.append(15)
+print(array[7], array1[7])
+array .append(1)
+array1.append(14)
+array2 = array.copy()
+array2.extend(array1)
+count = array2.count(7)
+array2.sort()
+array2.remove(7)
+array3 = array2.copy()
+array3.reverse()
+print(array2)
+print(array3)
